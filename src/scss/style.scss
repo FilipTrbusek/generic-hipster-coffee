@@ -1,0 +1,40 @@
+@import "colors";
+@import "font";
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Oswald", sans-serif, tahoma, arial;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: $navbar;
+
+  &__section {
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+}
+
+img {
+  height: 100px;
+  width: auto;
+}
+
+a {
+  padding-left: 50px;
+  color: $navbar-font;
+  text-decoration: none;
+}
